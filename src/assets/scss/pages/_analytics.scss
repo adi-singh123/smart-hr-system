@@ -1,0 +1,76 @@
+.card.analytics-card {
+  .analytics-chart {
+    // Accessibility patterns for color-blind users
+    .apexcharts-series {
+      &.pattern-1 {
+        background-image: repeating-linear-gradient(
+          45deg,
+          #f44336,
+          #f44336 5px,
+          #ffffff 5px,
+          #ffffff 10px
+        );
+        background-size: 10px 10px;
+      }
+
+      &.pattern-2 {
+        background-image: repeating-linear-gradient(
+          -45deg,
+          #2196f3,
+          #2196f3 5px,
+          #ffffff 5px,
+          #ffffff 10px
+        );
+        background-size: 10px 10px;
+      }
+
+      &.pattern-3 {
+        background-image: repeating-linear-gradient(
+          90deg,
+          #4caf50,
+          #4caf50 5px,
+          #ffffff 5px,
+          #ffffff 10px
+        );
+        background-size: 10px 10px;
+      }
+
+      &.pattern-4 {
+        background-image: repeating-linear-gradient(
+          135deg,
+          #ff9800,
+          #ff9800 5px,
+          #ffffff 5px,
+          #ffffff 10px
+        );
+        background-size: 10px 10px;
+      }
+    }
+
+    // Label accessibility
+    .apexcharts-datalabel {
+      color: #000 !important;
+      font-size: 12px;
+      font-weight: 600;
+      background-color: #fff;
+      padding: 2px 6px;
+      border-radius: 4px;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    }
+
+    // Legend visibility
+    .apexcharts-legend-text {
+      color: #000 !important;
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    // Tooltip readability
+    .apexcharts-tooltip {
+      background-color: #ffffff !important;
+      color: #000 !important;
+      border: 1px solid #ccc !important;
+      font-size: 13px !important;
+    }
+  }
+}

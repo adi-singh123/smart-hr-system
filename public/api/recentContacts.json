@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Carol Thomas",
+    "title": "UI/UX Designer",
+    "avatar": "avatar16",
+    "email": "carol.thomas@gmail.com",
+    "phone": "+1-124-547-8450",
+    "createdAt": "2024-01-12T10:00:00"
+  },
+  {
+    "name": "Dawn Mercha",
+    "title": "Technician",
+    "avatar": "avatar22",
+    "email": "dawn@protech.io",
+    "phone": "+1-478-845-4470",
+    "createdAt": "2024-01-20T12:20:00"
+  },
+  {
+    "name": "Rachel Hampton",
+    "title": "Software Developer",
+    "avatar": "avatar23",
+    "email": "rachel.h@codeverse.net",
+    "phone": "+1-215-544-8450",
+    "createdAt": "2024-02-15T08:30:00"
+  },
+  {
+    "name": "Jonelle Curtiss",
+    "title": "Supervisor",
+    "avatar": "avatar24",
+    "email": "jonelle@buildcorp.org",
+    "phone": "+1-121-145-4710",
+    "createdAt": "2024-02-24T11:00:00"
+  },
+  {
+    "name": "Jonathan",
+    "title": "Team Lead - Development",
+    "avatar": "avatar23",
+    "email": "jonathan@devhub.tech",
+    "phone": "+1-321-454-7890",
+    "createdAt": "2024-03-10T14:10:00"
+  }
+]
